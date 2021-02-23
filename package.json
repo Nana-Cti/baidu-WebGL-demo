@@ -1,0 +1,56 @@
+{
+  "name": "fire-control-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1",
+    "vue": "^3.0.4",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.1",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "@vue/cli-plugin-babel": "~5.0.0-alpha.4",
+    "@vue/cli-plugin-eslint": "~5.0.0-alpha.4",
+    "@vue/cli-plugin-router": "~5.0.0-alpha.4",
+    "@vue/cli-plugin-typescript": "~5.0.0-alpha.4",
+    "@vue/cli-plugin-vuex": "~5.0.0-alpha.4",
+    "@vue/cli-service": "~5.0.0-alpha.4",
+    "@vue/compiler-sfc": "^3.0.4",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^7.2.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "typescript": "~4.1.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/airbnb",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

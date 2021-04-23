@@ -772,7 +772,7 @@ window.BMapGL = window.BMapGL || {};
       var hT = hS ? "" : "_" + (this.mapStyleNameIdPair[T] - 1);
       var i = fz();
       var hR = "udt=" + i.udt + "&v=" + i.ver;
-      var e = f3 + "//maponline0.bdimg.com/sty/";
+      var e = bmapcfg.home + "/sty/";
       return [e + "icons_2x" + hT + ".js?" + hR, e + "fs" + hT + ".js?" + hR, e + "indoor_fs.js?" + hR]
     },
     tvc: {
@@ -1748,7 +1748,7 @@ window.BMapGL = window.BMapGL || {};
       if (fY(i).position !== "absolute") {
         e.position = "relative"
       }
-      e.backgroundImage = "url(" + e3.imgPath + "bg.png)";
+      // e.backgroundImage = "url(" + e3.imgPath + "bg.png)";
       e.textAlign = "left";
       e.touchAction = e.MSTouchAction = "none"
     },
@@ -7197,7 +7197,7 @@ window.BMapGL = window.BMapGL || {};
     initialize: function (i) {
       this._map = i;
       var e = this._container = document.createElement("div");
-      e.innerHTML = '<img src="' + e3.apiHost + '/images/logo_hd.png"  style="height:21px;width:62px;"/>';
+      // e.innerHTML = '<img src="' + e3.apiHost + '/images/logo_hd.png"  style="height:21px;width:62px;"/>';
       i.getContainer().appendChild(e);
       return e
     }
